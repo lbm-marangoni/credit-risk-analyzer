@@ -79,7 +79,8 @@ run_analyzer()
 📁 credit-risk-analyzer
 ├── README.md
 ├── requirements.txt
-└── credit_risk_analyzer.ipynb    ← main notebook
+├── credit_risk_analyzer.ipynb    ← main notebook
+└── results.csv                   ← auto-generated after first run
 ```
 
 ---
@@ -110,4 +111,5 @@ pip install -r requirements.txt
 
 
 *Built by [Lucas Marangoni](https://www.linkedin.com/in/lbm-marangoni) — Economics student at FAAP | Quant Finance & Portfolio Management*
+
 
