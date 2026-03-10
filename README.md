@@ -14,6 +14,7 @@ A Python-based credit risk model that collects customer financial data, normaliz
 4. **Default Probability** — Derives probability of default (PD) directly from the final score
 5. **Rating & Action** — Classifies the customer into a credit rating (AAA → D) with a recommended course of action
 6. **Report** — Generates a structured report with both raw values and normalized metrics
+7. **Input Validation** — rejects invalid entries before processing: score out of range, negative income or debt, and other inconsistent inputs
 
 ---
 
@@ -101,11 +102,11 @@ pip install -r requirements.txt
 
 ## 🚧 Next Steps
 
-- **Input Validation** — prevent invalid entries: score > 1000, negative income, debt below zero
 - **Batch Processing** — run the analyzer on a CSV file with multiple customers using Pandas, outputting a full risk report per row
 - **Visualization** — bar chart of normalized variables per customer using Matplotlib, making the scoring breakdown visual
 - **Logistic Regression** — replace the weighted score with a trained `sklearn` model, moving from rule-based to data-driven credit classification
 
 ---
+
 
 *Built by [Lucas Marangoni](https://www.linkedin.com/in/lbm-marangoni) — Economics student at FAAP | Quant Finance & Portfolio Management*
